@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPVLXV0P7E"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LPVLXV0P7E');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Free Online Game</title>
+    <meta name="description" content="Play Monster Survivors, an exciting survival game where you battle endless waves of monsters!">
+    <link rel="canonical" href="https://monstersurvive.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#007AFF',
+                            gray: '#F5F5F7',
+                            darkgray: '#86868B',
+                            black: '#1D1D1F'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwind">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            .container-custom {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 1.5rem;
+            }
+            .game-card {
+                transition: transform 0.3s ease;
+            }
+            .game-card:hover {
+                transform: translateY(-5px);
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-apple-black font-sans">
+    <!-- Header Section -->
+    <header class="bg-apple-gray py-8 md:py-12">
+        <div class="container-custom">
+            <h1 class="text-4xl md:text-5xl font-bold text-center mb-4 text-shadow">Monster Survivors</h1>
+            <p class="text-xl md:text-2xl text-center text-apple-darkgray mb-8">Battle endless waves of monsters in this exciting survival game!</p>
+        </div>
+    </header>
+
+    <!-- Game Section -->
+    <section class="py-12 bg-white">
+        <div class="container-custom">
+            <div class="game-card bg-apple-gray rounded-xl overflow-hidden shadow-lg">
+                <div class="aspect-w-16 aspect-h-9 w-full">
+                    <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                            class="w-full h-[500px] md:h-[600px]" 
+                            frameborder="0" 
+                            allow="fullscreen"
+                            title="Play Monster Survivors Online Game"></iframe>
+                </div>
+                <div class="p-4">
+                    <p class="text-lg">Survive endless waves of monsters in this thrilling action-packed adventure! Collect power-ups, upgrade your abilities, and see how long you can last against the monster hordes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-apple-black text-white py-8">
+        <div class="container-custom">
+            <div class="text-center">
+                <p class="mb-4">&copy; 2023 Monster Survivors. All rights reserved.</p>
+                <p class="text-sm text-gray-400">Experience the thrill of survival in this exciting online game!</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add Tailwind aspect ratio plugin -->
+    <script>
+        // This adds support for aspect ratio utility
+        (function() {
+            const style = document.createElement('style');
+            style.textContent = `
+                .aspect-w-16 {
+                    position: relative;
+                    padding-bottom: calc(9 / 16 * 100%);
+                }
+                .aspect-w-16 > * {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                }
+            `;
+            document.head.appendChild(style);
+        })();
+    </script>
+</body>
+</html> 
