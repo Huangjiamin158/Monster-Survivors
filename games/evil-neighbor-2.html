@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evil Neighbor 2 - Horror Adventure Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .game-container {
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            position: relative;
+        }
+        .game-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-gray-800 text-white p-4">
+        <a href="../index.html" class="flex items-center space-x-2 text-white hover:text-gray-300">
+            <i class="fas fa-arrow-left"></i>
+            <span>Back to Home</span>
+        </a>
+    </nav>
+    
+    <!-- Game Container -->
+    <div class="game-container">
+        <iframe src="https://www.crazygames.com/embed/evil-neighbor-2" 
+                frameborder="0" 
+                allow="gamepad *; fullscreen *; autoplay; clipboard-write; encrypted-media"
+                allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- Game Info Section -->
+    <div class="max-w-4xl mx-auto p-6">
+        <!-- Game Description -->
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <i class="fas fa-info-circle mr-3 text-blue-500"></i>
+                Game Description
+            </h2>
+            <p class="text-gray-600 leading-relaxed">
+                Evil Neighbor 2 is a thrilling escape game that features a larger house, more items, and a stronger enemy compared to the first episode. Immerse yourself in a first-person perspective as you play the role of a trapped victim. Use your wit and strategy to outsmart your neighbor and his wife. Unlock doors, and progress through the game. With an emphasis on exploration and creative thinking, this game offers multiple paths and options for each quest, providing a thrilling and truly terrifying gaming experience.
+            </p>
+        </div>
+
+        <!-- Controls Guide -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <i class="fas fa-keyboard mr-3 text-blue-500"></i>
+                Game Controls
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">WASD/Arrows</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Move</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">Mouse</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Look around</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">E</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Take/Use item</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">G</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Drop item</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">Space</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Use slingshot/Exit box</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">M</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Pause menu</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">H</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Hint</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,25 @@
+{
+    "games": {
+        "game1": {
+            "name": "Mergest Kingdom",
+            "Game Description": "Mergest Kingdom is a merge puzzle and match-3 game where you build your own kingdom by combining resources in groups of three. Match items to unlock new resources, complete quests, and expand your territory. With hundreds of objects to merge and challenges to complete, you can steadily grow your kingdom and shape it the way you want. Jump in and start building today.",
+            "Game Controls": [
+                "Drag the left mouse button"
+            ]
+        },
+        "game2": {
+            "name": "Farm Merge Valley",
+            "Game Description": "Farm Merge Valley is a puzzle business farming game where you merge various animals and objects to upgrade them. Grow crops and add animals to your farm while expanding to exciting new lands. Discover the peaceful farm life you always dreamed of while reaping the rewards from various challenges.",
+            "Game Controls": [
+                "Use the left mouse button to drag and merge items"
+            ]
+        },
+        "game3": {
+            "name": "Wood Block Journey",
+            "Game Description": "Wood Block Journey is a woodblock puzzle tetris game fused with the essence of Sudoku. Clear rows, columns, and squares in Play Single mode for high scores. Complete unique missions in Journey mode. Enjoy beautiful graphics, soothing sounds, and stress-free gameplay. Solve 60+ engaging puzzles with realistic wood tiles. It's a free, no-registration gaming delight.",
+            "Game Controls": [
+                "Use the left mouse button to drag the shapes onto the board."
+            ]
+        }
+    }
+} 

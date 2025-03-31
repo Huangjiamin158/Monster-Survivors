@@ -1,0 +1,116 @@
+{
+    "existing_games": {
+        "mergest-kingdom": true,
+        "farm-merge-valley": true,
+        "wood-block-journey": true
+    },
+    "categories": {
+        "action-adventure": {
+            "name": "Action Adventure"
+        },
+        "puzzle-games": {
+            "name": "Puzzle Games"
+        }
+    },
+    "games": {
+        "mergest-kingdom": {
+            "title": "Mergest Kingdom - Puzzle Game",
+            "description": "Mergest Kingdom is a merge puzzle and match-3 game where you build your own kingdom by combining resources in groups of three. Match items to unlock new resources, complete quests, and expand your territory. With hundreds of objects to merge and challenges to complete, you can steadily grow your kingdom and shape it the way you want. Jump in and start building today.",
+            "controls": "Drag the left mouse button",
+            "iframe": "<iframe src=\"https://www.crazygames.com/embed/mergest-kingdom\" style=\"width: 100%; height: 100%;\" frameborder=\"0\" allow=\"gamepad *;\"></iframe>"
+        },
+        "farm-merge-valley": {
+            "title": "Farm Merge Valley - Puzzle Game",
+            "description": "Farm Merge Valley is a puzzle business farming game where you merge various animals and objects to upgrade them. Grow crops and add animals to your farm while expanding to exciting new lands. Discover the peaceful farm life you always dreamed of while reaping the rewards from various challenges.",
+            "controls": "Use the left mouse button to drag and merge items",
+            "iframe": "<iframe src=\"https://www.crazygames.com/embed/farm-merge-valley\" style=\"width: 100%; height: 100%;\" frameborder=\"0\" allow=\"gamepad *;\"></iframe>"
+        },
+        "wood-block-journey": {
+            "title": "Wood Block Journey - Puzzle Game",
+            "description": "Wood Block Journey is a woodblock puzzle tetris game fused with the essence of Sudoku. Clear rows, columns, and squares in Play Single mode for high scores. Complete unique missions in Journey mode. Enjoy beautiful graphics, soothing sounds, and stress-free gameplay. Solve 60+ engaging puzzles with realistic wood tiles. It's a free, no-registration gaming delight.",
+            "controls": "Use the left mouse button to drag the shapes onto the board",
+            "iframe": "<iframe src=\"https://www.crazygames.com/embed/wood-block-journey\" style=\"width: 100%; height: 100%;\" frameborder=\"0\" allow=\"gamepad *;\"></iframe>"
+        }
+    }
+} "games": {
+        "Classic Bowling ": {
+            "title": "Classic Bowling  - Classic Arcade",
+            "description": "Enjoy yourself with this classic bowling game. Try to hit as many pins as you can!
+            "controls": "Use left/right arrow to move, and use the space bar to choose the power and the effect.",
+            "iframe":<iframe src="https://www.crazygames.com/embed/classic-bowling" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>
+    }
+} "games": {
+        "Pool Hustlers  ": {
+            "title": "Pool Hustlers   - Classic Arcade",
+            "description": "Pool Hustlers is a pool game where you must try your best to sink as many balls as possible against the ticking clock. Get ready for a fast-paced, precision-focused pool game set in a lively 80s billiards hall. This classic game will bring an adrenaline rush to your usual pool experience, taking you back to an era when pool tables were the battlegrounds for skilled hustlers. Get ready and show your best pool skills!
+            "controls": "Move the mouse to select direction, then drag the left mouse button to shoot.",
+            "iframe":<iframe src="https://www.crazygames.com/embed/pool-hustlers" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>
+} "games": {
+        "Gold Miner  ": {
+            "title": "Gold Miner  - Classic Arcade",
+            "description": "Gold Miner is a classic casual mining game reminiscent of the early 2000s that has captivated players for years. In this timeless adventure, you'll seek to collect gold, stones, and minerals to reach your daily goal and amass wealth beyond your wildest dreams. With each successful mining expedition, you'll earn money that can be used to purchase valuable upgrades, including explosives that allow you to mine more efficiently than ever before. And now, thanks to its HTML5 port, you can enjoy the game on both your desktop and in your browser, anytime and anywhere you please!
+            "controls": "Down arrow key = drop claw
+Up arrow key = toss dynamite (when dragging an item)
+Left mouse button = interact in-game UI
+(Since this is a Flash game, some UI buttons aren't working as intended, please click "Play Again" at every end of the game instead)",
+           "iframe£º<iframe src="https://www.crazygames.com/embed/gold-miner" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>
+} "games": {
+        "Bloons Tower Defense   ": {
+            "title": "Bloons Tower Defense   - Casual Games",
+            "description": "Bloons Tower Defense is a casual game where your mission is to build and fortify your defenses to stop an ever-growing wave of colorful balloons from reaching the end of the track. This classic game started the legendary Bloons TD series and continues some of the gameplay. You must strategically place a wide variety of units, from dart-throwing monkeys to powerful turrets, and enhance them with upgrades to maximize your popping power. As the levels progress, so do the challenges.
+            "controls": "Click/tap the towers you'd like to build and click/tap on the area you want to put them. You can also click/tap the towers you've built to check any upgrades you can buy.",
+            "iframe":<iframe src="https://www.crazygames.com/embed/bloons-tower-defense" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>
+
+} "games": {
+        "Bloons Tower Defense   ": {
+            "title": "Bloons Tower Defense   - Casual Games",
+            "description": "Bloons Tower Defense is a casual game where your mission is to build and fortify your defenses to stop an ever-growing wave of colorful balloons from reaching the end of the track. This classic game started the legendary Bloons TD series and continues some of the gameplay. You must strategically place a wide variety of units, from dart-throwing monkeys to powerful turrets, and enhance them with upgrades to maximize your popping power. As the levels progress, so do the challenges.
+            "controls": "Click/tap the towers you'd like to build and click/tap on the area you want to put them. You can also click/tap the towers you've built to check any upgrades you can buy.",
+            "iframe":
+} "games": {
+        "Robot Unicorn Attack   ": {
+            "title": "Robot Unicorn Attack  - Casual Games",
+            "description": "Robot Unicorn Attack is an epic fantasy platform game developed by Adult Swim. Leap and dash your way through this classic title as a beautiful robot unicorn chasing its dreams. See how far you can get and beat your previous high score!
+            "controls": "Z to jump, click twice for double jump
+X to do rainbow dash attack",
+            "iframe":<iframe src="https://www.crazygames.com/embed/robot-unicorn-attack" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>
+} "games": {
+        "Find 5 Differences   ": {
+            "title": "Find 5 Differences , -Casual Games",
+            "description": "Find all the 5 differences in this beautiful spot-the-difference game.
+            "controls": "Left mouse button",
+            "iframe":<iframe src="https://www.crazygames.com/embed/5-differences" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>
+} "games": {
+        "Smarty Bubbles  ": {
+            "title": "Smarty Bubbles  -Skill Games",
+            "description": "Smarty Bubbles is a match-3 bubble shooting game with fun and relaxing gameplay. Shoot the bubbles at the matching colors and enjoy popping them all away. Your urge to pop bubbles will be satisfied by playing this game for free, here.
+            "controls": "Move the mouse to move direction, hold the left mouse button to aim, and release it to shoot.
+            "iframe":<iframe src="https://www.crazygames.com/embed/smarty-bubbles" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>
+} "games": {
+        "SpiderDoll ": {
+            "title": "SpiderDoll  - Skill Games",
+            "description": "SpiderDoll is a Spider Rope Hero game. Swing through New York City wrapping bad guys in your web and getting closer to saving Mary. Escape OctoPuppet and battle Green Goblin using your SpiderDoll abilities. Run, swing, and shoot your way through the city!
+            "controls": "Left/Right Mouse button to swing
+Space bar + Left Mouse Button to shoot
+            "iframe":<iframe src="https://www.crazygames.com/embed/spiderdoll" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>
+} "games": {
+        "Riders Downhill Racing": {
+            "title": "Riders Downhill Racing -Skill Games",
+            "description": "Riders Downhill Racing is a bike racing game that you can play by yourself or with your friend locally. There are three game modes available: Racing Mode, Career Mode, and Free Style Mode. Try to be the first to reach the finish line in the Racing Mode. Reach the finish line before the time runs out in the Career Mode. Have a super fun ride, and don't forget to collect diamonds in the Free Style Mode to unlock more items. Fly through the ramps, do stunts, and experience exciting moments! Go to the garage to buy new bikes, costumes, ATV bikes, cross bikes, and speed boats for more great adventures! Are you ready to be the best riders? Let the ride begin!
+            "controls": "Player 1
+WASD / arrow keys (1P Mode only) = move
+Q = jump: (Free Style mode only)
+E = parachute (Free Style mode only)
+Tab = switch vehicle (Free Style mode only)
+Shift = NOS (not available for bike)
+C = change camera view
+R = reset position
+Player 2:
+Arrow keys = move
+I = jump: (Free Style mode only)
+P = parachute (Free Style mode only)
+Enter = switch vehicle (Free Style mode only)
+M = NOS (not available for bike)
+K = change camera view
+U = reset position
+            "iframe":<iframe src="https://www.crazygames.com/embed/riders-downhill-racing" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>

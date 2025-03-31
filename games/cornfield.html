@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cornfield - Action Adventure Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .game-container {
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            position: relative;
+        }
+        .game-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Game Container -->
+    <div class="game-container">
+        <iframe src="https://www.crazygames.com/embed/cornfield" 
+                frameborder="0" 
+                allow="gamepad *; fullscreen *; autoplay; clipboard-write; encrypted-media"
+                allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- Game Info Section -->
+    <div class="max-w-4xl mx-auto p-6">
+        <!-- Game Description -->
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <i class="fas fa-info-circle mr-3 text-blue-500"></i>
+                Game Description
+            </h2>
+            <p class="text-gray-600 leading-relaxed">
+                Cornfield is a pulse-pounding puzzle-survival game where you must outsmart a relentless corn monster. Navigate a shadowy maze filled with complex challenges, testing your strategy and nerves. Solve puzzles quickly and carefully to find the exit before the terrifying creature catches up and becomes their meal. Every step could be your last in this heart-pounding escape adventure.
+            </p>
+        </div>
+
+        <!-- Controls Guide -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <i class="fas fa-keyboard mr-3 text-blue-500"></i>
+                Game Controls
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">WASD/Arrows</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Move</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">LMB/E</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Interact/Pick-up</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">RMB/G</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Drop item</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">C</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Crouch</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">H</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Get a hint</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">F</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Fire</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">Shift</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Sprint</span>
+                </div>
+                <div class="flex items-center bg-gray-50 p-3 rounded">
+                    <span class="font-medium text-gray-700 w-24">Tab</span>
+                    <span class="text-gray-400 mx-3">→</span>
+                    <span class="text-gray-600">Pause</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
